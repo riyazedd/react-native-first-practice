@@ -7,7 +7,7 @@ const TomatoScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Tomato Screen</Text>
-      <Button title="Gold Screen" onPress={()=>navigation.navigate("GoldScreen")} />
+      {/* <Button title="Gold Screen" onPress={()=>navigation.navigate("GoldScreen")} /> */}
     </View>
   )
 }
